@@ -1,9 +1,9 @@
 [build]
   functions="/functions"
 
-[[redirects]]
-  from = "/*"
-  to = "/index.html?path=:splat"
+[redirects]
+  from = "/patrick"
+  to = "/index.html"
   status = 200
   force = true
   query = {path = ":splat"}
