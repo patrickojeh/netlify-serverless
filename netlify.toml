@@ -3,7 +3,7 @@
 
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "/index.html?path=:splat"
   status = 200
-  force = false
-  query = {path = ":path"}
+  force = true
+  query = {path = ":splat"}
