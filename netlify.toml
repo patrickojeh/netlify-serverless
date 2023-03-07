@@ -2,8 +2,7 @@
   functions="/functions"
 
 [redirects]
-  from = "/patrick"
+  from = "/*"
   to = "/index.html"
   status = 200
   force = true
-  query = {path = ":splat"}
