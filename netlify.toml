@@ -1,6 +1,5 @@
 [build]
   functions="/functions"
-/*    /index.html   200
 
 [[redirects]]
   from = "/*"
